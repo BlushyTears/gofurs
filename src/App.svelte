@@ -32,9 +32,9 @@
 <br />
 
 <div class="section-1 red-theme">
-  <h1>Good Old Fashioned Un Registered Security $GOFURS</h1>
+  <h1 style="font-size: calc(2em + 2vw); margin-left: calc(-1rem + -0.5vw); width: calc(10rem+5vw);">Good Old Fashioned Un Registered Security $GOFURS</h1>
   <br />
-  <p>
+  <p style="font-size: calc(0.4em + 0.8vw); color: white;">
     BY PARTICIPATING YOU AGREE THAT YOU FULLY EXPECT 10 GAZILLION PERCENT
     PROFITS SOLELY FROM THE WORK OF THESE GOFURS.
   </p>
@@ -43,7 +43,7 @@
   <br />
   <br />
   <!-- inline css since we want to highlight CA -->
-  <p style="font-size: calc(0.4em + 1vw); color: white;">
+  <p style="font-size: calc(0.5em + 1.5vw); color: white; margin-left: calc(-0.2vw + -4rem);">
     Contract: 0x54f667dB585b7B10347429C72c36c8B59aB441cb
   </p>
 </div>
@@ -154,7 +154,7 @@
   class="section-1 yellow-theme"
 >
   <Saos once={true}>
-    <h1 class="left-slide">Chart</h1>
+    <h1 class="left-slide">Charts</h1>
   </Saos>
   
 </div>
@@ -199,12 +199,12 @@
   }
 
   h1 {
-    font-size: 3.3em;
+    font-size: calc(2em + 1vw);
     color: rgba(255, 255, 255, 0.9);
   }
 
   h2 {
-    font-size: 2em;
+    font-size: calc(1.5em + 0.8vw);
     color: rgba(255, 255, 255, 0.9);
   }
 
@@ -215,11 +215,11 @@
 
   .wallpaper-clip-container {
     width: 100%;
-    height: 62vh;
+    height: 31.5vw;
     overflow: hidden;
     display: flex;
     justify-content: center;
-    align-items: flex-start; /* Align the image to the top */
+    align-items: flex-start; 
   }
 
   .wallpaper-image {
@@ -229,18 +229,19 @@
 
   .section-1 {
     text-align: center;
-    margin: 0px auto;
     color: white;
     transition: transform 0.2s ease-out;
     padding: 6rem;
+    margin: 0 auto;
   }
 
   .red-theme {
     border-radius: 1px;
-    padding: 5rem;
-    width: 50%;
     border-radius: 2rem 0 2rem 0;
     background-image: linear-gradient(135deg, #d35400 0%, #8e44ad 100%);
+    max-width: 80rem;
+    width: 40%;
+    margin: 0 auto;
     margin-bottom: 10rem;
   }
 
