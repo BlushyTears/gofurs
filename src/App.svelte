@@ -36,7 +36,7 @@
   <br />
   <p style="font-size: calc(0.4em + 0.8vw); color: white;">
     BY PARTICIPATING YOU AGREE THAT YOU FULLY EXPECT 10 GAZILLION PERCENT
-    PROFITS SOLELY FROM THE WORK OF THESE GOFURS.
+    PROFITS SOLELY FROM THE WORK OF THESE GOFURS
   </p>
   <br />
   <br />
@@ -58,7 +58,7 @@
 <br />
 
 <div class="section-1 no-theme">
-  <p style="font-size: 2em; color: rgba(0,0,0, 0.8);">
+  <p style="font-size: 2em; color: #332809;">
     ERC404 is a new, experimental smart contract token standard. It has elements
     of normal ERC20 tokens and ERC721 NFTs...
   </p>
@@ -252,13 +252,13 @@
     width: 75%;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     background-image: none;
-    color: black;
+    color: #332809;
     margin: 0 auto;
   }
 
   /* This is called yellow theme, because it makes use of the default bg color which is yellow */
   .yellow-theme {
-    background: rgba(0, 0, 0, 0.8);
+    background: #332809;
   }
 
   @keyframes slideInFromLeft {

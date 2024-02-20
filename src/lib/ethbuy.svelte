@@ -12,7 +12,7 @@
 <style>
     .buy-now-button {
         background-image: linear-gradient(135deg, #FFD322 0%, #FFA500 100%);
-        color: rgba(0,0,0, 0.8);
+        color: #332809;
         padding: 40px 80px;
         border: none;
         cursor: pointer;
