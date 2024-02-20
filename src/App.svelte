@@ -32,7 +32,7 @@
 <br />
 
 <div class="section-1 red-theme">
-  <h1 style="font-size: calc(2em + 2vw); margin-left: calc(-1rem + -0.5vw); width: calc(10rem+5vw);">Good Old Fashioned Un Registered Security $GOFURS</h1>
+  <h1 style="font-size: calc(1.8em + 2vw);">Good Old Fashioned Un Registered Security $GOFURS</h1>
   <br />
   <p style="font-size: calc(0.4em + 0.8vw); color: white;">
     BY PARTICIPATING YOU AGREE THAT YOU FULLY EXPECT 10 GAZILLION PERCENT
@@ -43,7 +43,7 @@
   <br />
   <br />
   <!-- inline css since we want to highlight CA -->
-  <p style="font-size: calc(0.5em + 1.5vw); color: white; margin-left: calc(-0.2vw + -4rem);">
+  <p style="font-size: calc(0.5em + 1.5vw); color: white;">
     Contract: 0x54f667dB585b7B10347429C72c36c8B59aB441cb
   </p>
 </div>
@@ -232,7 +232,6 @@
     color: white;
     transition: transform 0.2s ease-out;
     padding: 6rem;
-    margin: 0 auto;
   }
 
   .red-theme {
@@ -240,9 +239,10 @@
     border-radius: 2rem 0 2rem 0;
     background-image: linear-gradient(135deg, #d35400 0%, #8e44ad 100%);
     max-width: 80rem;
-    width: 40%;
+    width: 95%;
     margin: 0 auto;
     margin-bottom: 10rem;
+    text-align: center;
   }
 
   .no-theme {
@@ -253,6 +253,7 @@
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     background-image: none;
     color: black;
+    margin: 0 auto;
   }
 
   /* This is called yellow theme, because it makes use of the default bg color which is yellow */
@@ -330,7 +331,7 @@
     text-align: center;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.35);
     color: rgba(255, 255, 255, 0.9);
-    width: calc(10rem + 15vw);
+    width: calc(15rem + 12vw);
     margin: 0 auto;
     padding: 2rem;
     font-size: 3em;
@@ -385,4 +386,15 @@
       width: 90%;
     }
   }
+
+
+  @media (max-width: 800px) {
+  .red-theme{
+    padding: 2rem; /* Adjust padding as needed for smaller screens */
+  }
+  .yellow-theme {
+    padding: 4rem;
+  }
+}
+
 </style>
