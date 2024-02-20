@@ -32,7 +32,7 @@
 <br />
 
 <div class="section-1 red-theme">
-  <h1 style="font-size: calc(1.7em + 2vw); width: 100%;">Good Old Fashioned Un Registered Security $GOFURS</h1>
+  <h1 style="font-size: calc(1.4em + 2.2vw); width: 100%;">Good Old Fashioned Un Registered Security $GOFURS</h1>
   <br />
   <p style="font-size: calc(0.4em + 0.8vw); color: white;">
     BY PARTICIPATING YOU AGREE THAT YOU FULLY EXPECT 10 GAZILLION PERCENT
